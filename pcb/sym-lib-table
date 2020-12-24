@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name "TCY_LEDs")(type "KiCad")(uri "/home/petr/MEGA/Work/Kicad/Libraries/TCY_Kicad/library/TCY_LEDs.kicad_sym")(options "")(descr ""))
+  (lib (name "TCY_ESP8266")(type "KiCad")(uri "/home/petr/MEGA/Work/Kicad/Libraries/TCY_Kicad/library/TCY_ESP8266.kicad_sym")(options "")(descr ""))
+  (lib (name "TCY_logo")(type "KiCad")(uri "/home/petr/MEGA/Work/Kicad/Libraries/TCY_Kicad/library/TCY_logo.kicad_sym")(options "")(descr ""))
+  (lib (name "TCY_Strade")(type "KiCad")(uri "/home/petr/MEGA/Work/Kicad/Libraries/TCY_Kicad/library/TCY_Strade.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_ST_STM32G0")(type "KiCad")(uri "/home/petr/MEGA/Work/Kicad/Libraries/TCY_Kicad/library/MCU_ST_STM32G0.kicad_sym")(options "")(descr ""))
+  (lib (name "TCY_IC")(type "KiCad")(uri "/home/petr/MEGA/Work/Kicad/Libraries/TCY_Kicad/library/TCY_IC.kicad_sym")(options "")(descr ""))
+  (lib (name "TCY_connectors")(type "KiCad")(uri "/home/petr/MEGA/Work/Kicad/Libraries/TCY_Kicad/library/TCY_connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "TCY_sensors")(type "KiCad")(uri "/home/petr/MEGA/Work/Kicad/Libraries/TCY_Kicad/library/TCY_sensors.kicad_sym")(options "")(descr ""))
+  (lib (name "KLIB_Battery")(type "KiCad")(uri "${KIPRJMOD}/KLIB_Battery.kicad_sym")(options "")(descr ""))
+  (lib (name "74xGxx")(type "KiCad")(uri "${KIPRJMOD}/74xGxx.kicad_sym")(options "")(descr ""))
+)

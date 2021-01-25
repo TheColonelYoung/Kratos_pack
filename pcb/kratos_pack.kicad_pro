@@ -358,7 +358,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "/home/petr/work/arachne/PCB/page_layout.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "drawing": {
@@ -391,36 +391,20 @@
   },
   "sheets": [
     [
-      "46d16c08-c742-4ca1-8b68-9d101d99cbca",
+      "7e460f47-501e-4cc4-99d9-14af220b67f3",
       ""
     ],
     [
-      "46d16c08-c742-4ca1-8b68-9d101d99cbca",
-      "Voltage_measuring"
+      "7e460f47-501e-4cc4-99d9-14af220b67f3",
+      "USB-C"
     ],
     [
-      "2bb57c59-b825-4cea-a701-d403220a2b9e",
-      "Power_control"
+      "d4a7e79c-9128-4fa4-80c8-5ed7650db9b6",
+      "Battery_management"
     ],
     [
-      "8c6736db-04a8-4ebf-9395-31c1e7d2515d",
-      "BTN_Denoise_WAKE"
-    ],
-    [
-      "ff91214c-e5c9-43f0-a047-ccbf313f8ab9",
-      "BTN_Denoise_BOOT"
-    ],
-    [
-      "797edb05-f244-4f4b-89b9-c6832d1fc575",
-      "Voltage_measuring1"
-    ],
-    [
-      "4eb8fcb2-3952-4ba7-840b-816a56d0c86c",
-      "Voltage_measuring2"
-    ],
-    [
-      "bebc797e-90ae-4e52-858a-0655bca5ee57",
-      "Power_control2"
+      "855b09b7-a463-45e8-b433-54e6470ddee8",
+      "Power_management"
     ]
   ],
   "text_variables": {}

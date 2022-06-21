@@ -1,0 +1,200 @@
+ARM GAS  /tmp/cccvvQpu.s 			page 1
+
+
+   1              		.cpu cortex-m0plus
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 1
+   9              		.eabi_attribute 34, 0
+  10              		.eabi_attribute 18, 4
+  11              		.file	"globals.cpp"
+  12              		.text
+  13              	.Ltext0:
+  14              		.cfi_sections	.debug_frame
+  15              		.section	.text._Z6devicev,"ax",%progbits
+  16              		.align	1
+  17              		.global	_Z6devicev
+  18              		.arch armv6s-m
+  19              		.syntax unified
+  20              		.code	16
+  21              		.thumb_func
+  22              		.fpu softvfp
+  24              	_Z6devicev:
+  25              	.LFB4023:
+  26              		.file 1 "alohal/globals.cpp"
+   1:alohal/globals.cpp **** #include "globals.hpp"
+   2:alohal/globals.cpp **** 
+   3:alohal/globals.cpp **** #include "device/device.hpp"
+   4:alohal/globals.cpp **** #include "tools/tasker.hpp"
+   5:alohal/globals.cpp **** 
+   6:alohal/globals.cpp **** Device * const device(){
+  27              		.loc 1 6 24 view -0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31 0000 10B5     		push	{r4, lr}
+  32              	.LCFI0:
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 4, -8
+  35              		.cfi_offset 14, -4
+   7:alohal/globals.cpp ****     return Device::Instance();
+  36              		.loc 1 7 5 view .LVU1
+  37              		.loc 1 7 28 is_stmt 0 view .LVU2
+  38 0002 FFF7FEFF 		bl	_ZN6Device8InstanceEv
+  39              	.LVL0:
+   8:alohal/globals.cpp **** }
+  40              		.loc 1 8 1 view .LVU3
+  41              		@ sp needed
+  42 0006 10BD     		pop	{r4, pc}
+  43              		.cfi_endproc
+  44              	.LFE4023:
+  46              		.section	.text._Z6taskerv,"ax",%progbits
+  47              		.align	1
+  48              		.global	_Z6taskerv
+  49              		.syntax unified
+  50              		.code	16
+  51              		.thumb_func
+ARM GAS  /tmp/cccvvQpu.s 			page 2
+
+
+  52              		.fpu softvfp
+  54              	_Z6taskerv:
+  55              	.LFB4024:
+   9:alohal/globals.cpp **** 
+  10:alohal/globals.cpp **** Tasker * const tasker(){
+  56              		.loc 1 10 24 is_stmt 1 view -0
+  57              		.cfi_startproc
+  58              		@ args = 0, pretend = 0, frame = 0
+  59              		@ frame_needed = 0, uses_anonymous_args = 0
+  60 0000 10B5     		push	{r4, lr}
+  61              	.LCFI1:
+  62              		.cfi_def_cfa_offset 8
+  63              		.cfi_offset 4, -8
+  64              		.cfi_offset 14, -4
+  11:alohal/globals.cpp ****     return Tasker::Instance();
+  65              		.loc 1 11 5 view .LVU5
+  66              		.loc 1 11 28 is_stmt 0 view .LVU6
+  67 0002 FFF7FEFF 		bl	_ZN6Tasker8InstanceEv
+  68              	.LVL1:
+  12:alohal/globals.cpp **** }
+  69              		.loc 1 12 1 view .LVU7
+  70              		@ sp needed
+  71 0006 10BD     		pop	{r4, pc}
+  72              		.cfi_endproc
+  73              	.LFE4024:
+  75              		.text
+  76              	.Letext0:
+  77              		.file 2 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h"
+  78              		.file 3 "alohal/globals.hpp"
+  79              		.file 4 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/stl_list.h"
+  80              		.file 5 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/list.tcc"
+  81              		.file 6 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/type_traits"
+  82              		.file 7 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v6-m
+  83              		.file 8 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/stl_pair.h"
+  84              		.file 9 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/debug/debug.h"
+  85              		.file 10 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/cwchar"
+  86              		.file 11 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h"
+  87              		.file 12 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/cstdint"
+  88              		.file 13 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/exception_ptr.h"
+  89              		.file 14 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/new"
+  90              		.file 15 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/allocator.h"
+  91              		.file 16 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/clocale"
+  92              		.file 17 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/limits"
+  93              		.file 18 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/string_view"
+  94              		.file 19 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/cstdlib"
+  95              		.file 20 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/cstdio"
+  96              		.file 21 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h"
+  97              		.file 22 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/initializer_list"
+  98              		.file 23 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/stringfwd.h"
+  99              		.file 24 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/utility"
+ 100              		.file 25 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/algorithmfwd.h"
+ 101              		.file 26 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/uses_allocator.h"
+ 102              		.file 27 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/tuple"
+ 103              		.file 28 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/optional"
+ 104              		.file 29 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/stl_function.h"
+ 105              		.file 30 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/functional"
+ 106              		.file 31 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/stl_vector.h"
+ARM GAS  /tmp/cccvvQpu.s 			page 3
+
+
+ 107              		.file 32 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/vector.tcc"
+ 108              		.file 33 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_
+ 109              		.file 34 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/stl_tree.h"
+ 110              		.file 35 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/stl_map.h"
+ 111              		.file 36 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/predefined_ops.h"
+ 112              		.file 37 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h"
+ 113              		.file 38 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/ext/numeric_traits.h"
+ 114              		.file 39 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/ext/alloc_traits.h"
+ 115              		.file 40 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator.h"
+ 116              		.file 41 "/opt/gcc-arm-none-eabi-9-2020-q2/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h"
+ 117              		.file 42 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/machine/_default_types.h"
+ 118              		.file 43 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/sys/_types.h"
+ 119              		.file 44 "<built-in>"
+ 120              		.file 45 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/sys/reent.h"
+ 121              		.file 46 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/sys/lock.h"
+ 122              		.file 47 "/opt/gcc-arm-none-eabi-9-2020-q2/lib/gcc/arm-none-eabi/9.3.1/include/stdarg.h"
+ 123              		.file 48 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/wchar.h"
+ 124              		.file 49 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/sys/_stdint.h"
+ 125              		.file 50 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/stdint.h"
+ 126              		.file 51 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/locale.h"
+ 127              		.file 52 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/ctype.h"
+ 128              		.file 53 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/stdlib.h"
+ 129              		.file 54 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/stdio.h"
+ 130              		.file 55 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/sys/errno.h"
+ 131              		.file 56 "/opt/gcc-arm-none-eabi-9-2020-q2/arm-none-eabi/include/c++/9.3.1/pstl/execution_defs.h"
+ 132              		.file 57 "Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h"
+ 133              		.file 58 "Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h"
+ 134              		.file 59 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h"
+ 135              		.file 60 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h"
+ 136              		.file 61 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h"
+ 137              		.file 62 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2c.h"
+ 138              		.file 63 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h"
+ 139              		.file 64 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h"
+ 140              		.file 65 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h"
+ 141              		.file 66 "alohal/irq/irq_handler.hpp"
+ 142              		.file 67 "alohal/irq/irq_observer.hpp"
+ 143              		.file 68 "alohal/irq/irq_multi_handler.hpp"
+ 144              		.file 69 "alohal/uart/serial_line.hpp"
+ 145              		.file 70 "alohal/uart/uart.hpp"
+ 146              		.file 71 "alohal/mcu/configuration/externs.hpp"
+ 147              		.file 72 "alohal/timer/TIM_channel.hpp"
+ 148              		.file 73 "alohal/timer/timer.hpp"
+ 149              		.file 74 "alohal/i2c/i2c_master.hpp"
+ 150              		.file 75 "alohal/mcu/mcu.hpp"
+ 151              		.file 76 "alohal/cli/command.hpp"
+ 152              		.file 77 "alohal/cli/history.hpp"
+ 153              		.file 78 "alohal/filesystem/entry.hpp"
+ 154              		.file 79 "alohal/filesystem/executable.hpp"
+ 155              		.file 80 "alohal/cli/cli.hpp"
+ 156              		.file 81 "alohal/filesystem/filesystem.hpp"
+ 157              		.file 82 "alohal/filesystem/directory.hpp"
+ 158              		.file 83 "alohal/filesystem/file.hpp"
+ 159              		.file 84 "alohal/misc/text_transform.hpp"
+ 160              		.file 85 "alohal/events/planner/planner_phase.hpp"
+ 161              		.file 86 "alohal/events/planner/planner.hpp"
+ 162              		.file 87 "alohal/device/device.hpp"
+ 163              		.file 88 "alohal/device/tool.hpp"
+ARM GAS  /tmp/cccvvQpu.s 			page 4
+
+
+ 164              		.file 89 "alohal/tools/tasker_event.hpp"
+ 165              		.file 90 "alohal/tools/tasker.hpp"
+ 166              		.file 91 "alohal/misc/invocation_wrapper.hpp"
+ 167              		.file 92 "Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h"
+ARM GAS  /tmp/cccvvQpu.s 			page 5
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 globals.cpp
+     /tmp/cccvvQpu.s:16     .text._Z6devicev:0000000000000000 $t
+     /tmp/cccvvQpu.s:24     .text._Z6devicev:0000000000000000 _Z6devicev
+     /tmp/cccvvQpu.s:47     .text._Z6taskerv:0000000000000000 $t
+     /tmp/cccvvQpu.s:54     .text._Z6taskerv:0000000000000000 _Z6taskerv
+
+UNDEFINED SYMBOLS
+_ZN6Device8InstanceEv
+_ZN6Tasker8InstanceEv

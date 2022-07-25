@@ -12,3 +12,6 @@
 - Communication with MCU is not working
     - Place only one resistor for CP2102 WAKEUP pin (preferably place only R15)
     - Exchange R2 resistor value (47k -> 39k)
+
+- Signaling LED has incorrect layout
+    - Solution: Is possible to solder LED turned by 90° clockwise

@@ -4,6 +4,7 @@
     - Capacitor connected to SNS pins is changed for 47uF/16V in 1206 package
 - Footprint of resistors and capacitors was exchanged for smaller versions
 - Remove resistor in series with RESET line which is not required in order to save some space
+- Fix under-voltage protection by inverting signal of under-voltage supervisor with MOSFET
 
 # 1.0
 - Initial release

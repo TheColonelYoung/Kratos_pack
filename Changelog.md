@@ -6,6 +6,7 @@
 - Remove resistor in series with RESET line which is not required in order to save some space
 - Fix under-voltage protection by inverting signal of under-voltage supervisor with MOSFET
 - Fix MCU detection of USB connection, CP2102 is directly connected to VBUS
+- Intended connection from ILIM pin to MCU is removed to avoid confusion
 
 # 1.0
 - Initial release

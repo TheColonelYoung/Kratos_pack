@@ -6215,7 +6215,7 @@
     (uuid 59875fa1-96e8-4321-9ea5-fbd642347403)
     (property "Reference" "D2" (id 0) (at 148.59 171.5578 0))
     (property "Value" "LED_RGBA" (id 1) (at 148.59 191.6365 0))
-    (property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606" (id 2) (at 148.59 182.88 0)
+    (property "Footprint" "TCY_smd_leds:WL-SFCD - RGB606" (id 2) (at 148.59 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 148.59 182.88 0)
@@ -9282,7 +9282,7 @@
       (reference "D1") (unit 1) (value "3V3") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/59875fa1-96e8-4321-9ea5-fbd642347403"
-      (reference "D2") (unit 1) (value "LED_RGBA") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "D2") (unit 1) (value "LED_RGBA") (footprint "TCY_smd_leds:WL-SFCD - RGB606")
     )
     (path "/00db56a2-afd7-45ee-a1df-242f89ea2fec"
       (reference "D3") (unit 1) (value "12V") (footprint "Diode_SMD:D_0603_1608Metric")

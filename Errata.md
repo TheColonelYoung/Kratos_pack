@@ -31,3 +31,4 @@
 
 - Signaling LED has incorrect layout  
     - Solution: Is possible to solder LED turned by 90° clockwise  
+    - Fixed in v1.1

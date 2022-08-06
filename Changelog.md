@@ -7,6 +7,7 @@
 - Fix under-voltage protection by inverting signal of under-voltage supervisor with MOSFET
 - Fix MCU detection of USB connection, CP2102 is directly connected to VBUS
 - Intended connection from ILIM pin to MCU is removed to avoid confusion
+- Fix layout of signalization
 
 # 1.0
 - Initial release

@@ -1,3 +1,14 @@
+# V1.1  
+- Incorrect MOSFET type Q7 
+    - MOSFET is used for voltage supervisor inverting
+
+- Incorrect logic level on LTC4231 
+    - Inverted due to inversion of UVLO signal from voltage supervisor by Q7
+
+- Problematic USB connection to CP2102 (USB<->UART converter)
+    - Solved by removing ESD protection and 22R resistor on data lines
+    - To connect pads 0R resistors could be used
+
 # V1.0  
 
 ## Schema  

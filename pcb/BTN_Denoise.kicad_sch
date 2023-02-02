@@ -7,7 +7,7 @@
   (title_block
     (title "Kratos pack")
     (date "2022-07-01")
-    (rev "v1.1")
+    (rev "v${VERSION}")
     (company "Author: Petr Malaník")
   )
 

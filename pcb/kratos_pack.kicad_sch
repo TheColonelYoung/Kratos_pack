@@ -7893,7 +7893,7 @@
     (property "Reference" "Q7" (id 0) (at 219.71 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DMN2450UFD" (id 1) (at 219.71 41.91 0)
+    (property "Value" "DMN2300UFD-7" (id 1) (at 219.71 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TCY_IC:DFN-3_1.2x1.2mm" (id 2) (at 218.44 36.83 0)
@@ -9245,7 +9245,7 @@
       (reference "Q6") (unit 2) (value "UT6MA2TCR") (footprint "TCY_IC:UDFN-6-2EP_2x2mm_P0.65mm_EP1x0.7mm")
     )
     (path "/d9d4b6b8-0fc6-408e-943f-e51fc7c2df5d"
-      (reference "Q7") (unit 1) (value "DMN2450UFD") (footprint "TCY_IC:DFN-3_1.2x1.2mm")
+      (reference "Q7") (unit 1) (value "DMN2300UFD-7") (footprint "TCY_IC:DFN-3_1.2x1.2mm")
     )
     (path "/682b29b3-72b1-4399-a60c-d33327e4df10"
       (reference "R1") (unit 1) (value "22k") (footprint "TCY_passives:R_0603_1608Metric")
